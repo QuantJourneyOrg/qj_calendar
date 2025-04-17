@@ -1,0 +1,108 @@
+{
+    "name": "LSE",
+    "timezone": "Europe/London",
+    "open_time": "08:00",
+    "close_time": "16:30",
+    "trading_days": [0, 1, 2, 3, 4],  // Monday to Friday
+    "holidays": [
+        "2014-01-01",  // New Year's Day
+        "2014-04-18",  // Good Friday
+        "2014-04-21",  // Easter Monday
+        "2014-05-05",  // Early May Bank Holiday
+        "2014-05-26",  // Spring Bank Holiday
+        "2014-08-25",  // Summer Bank Holiday
+        "2014-12-25",  // Christmas Day
+        "2014-12-26",  // Boxing Day
+
+        "2015-01-01",  // New Year's Day
+        "2015-04-03",  // Good Friday
+        "2015-04-06",  // Easter Monday
+        "2015-05-04",  // Early May Bank Holiday
+        "2015-05-25",  // Spring Bank Holiday
+        "2015-08-31",  // Summer Bank Holiday
+        "2015-12-25",  // Christmas Day
+        "2015-12-28",  // Boxing Day (Observed)
+
+        "2016-01-01",  // New Year's Day
+        "2016-03-25",  // Good Friday
+        "2016-03-28",  // Easter Monday
+        "2016-05-02",  // Early May Bank Holiday
+        "2016-05-30",  // Spring Bank Holiday
+        "2016-08-29",  // Summer Bank Holiday
+        "2016-12-26",  // Christmas Day (Observed)
+        "2016-12-27",  // Boxing Day (Observed)
+
+        "2017-01-02",  // New Year's Day (Observed)
+        "2017-04-14",  // Good Friday
+        "2017-04-17",  // Easter Monday
+        "2017-05-01",  // Early May Bank Holiday
+        "2017-05-29",  // Spring Bank Holiday
+        "2017-08-28",  // Summer Bank Holiday
+        "2017-12-25",  // Christmas Day
+        "2017-12-26",  // Boxing Day
+
+        "2018-01-01",  // New Year's Day
+        "2018-03-30",  // Good Friday
+        "2018-04-02",  // Easter Monday
+        "2018-05-07",  // Early May Bank Holiday
+        "2018-05-28",  // Spring Bank Holiday
+        "2018-08-27",  // Summer Bank Holiday
+        "2018-12-25",  // Christmas Day
+        "2018-12-26",  // Boxing Day
+
+        "2019-01-01",  // New Year's Day
+        "2019-04-19",  // Good Friday
+        "2019-04-22",  // Easter Monday
+        "2019-05-06",  // Early May Bank Holiday
+        "2019-05-27",  // Spring Bank Holiday
+        "2019-08-26",  // Summer Bank Holiday
+        "2019-12-25",  // Christmas Day
+        "2019-12-26",  // Boxing Day
+
+        "2020-01-01",  // New Year's Day
+        "2020-04-10",  // Good Friday
+        "2020-04-13",  // Easter Monday
+        "2020-05-08",  // Early May Bank Holiday (VE Day)
+        "2020-05-25",  // Spring Bank Holiday
+        "2020-08-31",  // Summer Bank Holiday
+        "2020-12-25",  // Christmas Day
+        "2020-12-28",  // Boxing Day (Observed)
+
+        "2021-01-01",  // New Year's Day
+        "2021-04-02",  // Good Friday
+        "2021-04-05",  // Easter Monday
+        "2021-05-03",  // Early May Bank Holiday
+        "2021-05-31",  // Spring Bank Holiday
+        "2021-08-30",  // Summer Bank Holiday
+        "2021-12-27",  // Christmas Day (Observed)
+        "2021-12-28",  // Boxing Day (Observed)
+
+        "2022-01-03",  // New Year's Day (Observed)
+        "2022-04-15",  // Good Friday
+        "2022-04-18",  // Easter Monday
+        "2022-05-02",  // Early May Bank Holiday
+        "2022-06-02",  // Spring Bank Holiday (moved)
+        "2022-06-03",  // Platinum Jubilee Bank Holiday
+        "2022-08-29",  // Summer Bank Holiday
+        "2022-12-26",  // Christmas Day (Observed)
+        "2022-12-27",  // Boxing Day (Observed)
+
+        "2023-01-02",  // New Year's Day (Observed)
+        "2023-04-07",  // Good Friday
+        "2023-04-10",  // Easter Monday
+        "2023-05-01",  // Early May Bank Holiday
+        "2023-05-29",  // Spring Bank Holiday
+        "2023-08-28",  // Summer Bank Holiday
+        "2023-12-25",  // Christmas Day
+        "2023-12-26",  // Boxing Day
+
+        "2024-01-01",  // New Year's Day
+        "2024-03-29",  // Good Friday
+        "2024-04-01",  // Easter Monday
+        "2024-05-06",  // Early May Bank Holiday
+        "2024-05-27",  // Spring Bank Holiday
+        "2024-08-26",  // Summer Bank Holiday
+        "2024-12-25",  // Christmas Day
+        "2024-12-26"   // Boxing Day
+    ]
+}

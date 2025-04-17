@@ -1,0 +1,96 @@
+{
+    "name": "ADX",
+    "timezone": "Asia/Dubai",
+    "open_time": "10:00",
+    "close_time": "14:00",
+    "trading_days": [6, 0, 1, 2, 3],  // 0 = Monday, 1 = Tuesday, ..., 6 = Sunday
+    "holidays": [
+        "2014-01-01",  // New Year's Day
+        "2014-05-27",  // Isra and Mi'raj
+        "2014-07-29",  // Eid al-Fitr
+        "2014-10-04",  // Arafat (Haj) Day
+        "2014-10-05",  // Eid al-Adha
+        "2014-10-25",  // Hijri New Year
+        "2014-12-02",  // UAE National Day
+
+        "2015-01-01",  // New Year's Day
+        "2015-05-16",  // Isra and Mi'raj
+        "2015-07-18",  // Eid al-Fitr
+        "2015-09-22",  // Arafat (Haj) Day
+        "2015-09-23",  // Eid al-Adha
+        "2015-10-14",  // Hijri New Year
+        "2015-12-02",  // UAE National Day
+
+        "2016-01-01",  // New Year's Day
+        "2016-05-05",  // Isra and Mi'raj
+        "2016-07-06",  // Eid al-Fitr
+        "2016-09-11",  // Arafat (Haj) Day
+        "2016-09-12",  // Eid al-Adha
+        "2016-10-02",  // Hijri New Year
+        "2016-12-02",  // UAE National Day
+
+        "2017-01-01",  // New Year's Day
+        "2017-04-24",  // Isra and Mi'raj
+        "2017-06-25",  // Eid al-Fitr
+        "2017-08-31",  // Arafat (Haj) Day
+        "2017-09-01",  // Eid al-Adha
+        "2017-09-22",  // Hijri New Year
+        "2017-12-02",  // UAE National Day
+
+        "2018-01-01",  // New Year's Day
+        "2018-04-13",  // Isra and Mi'raj
+        "2018-06-15",  // Eid al-Fitr
+        "2018-08-21",  // Arafat (Haj) Day
+        "2018-08-22",  // Eid al-Adha
+        "2018-09-11",  // Hijri New Year
+        "2018-12-02",  // UAE National Day
+
+        "2019-01-01",  // New Year's Day
+        "2019-04-03",  // Isra and Mi'raj
+        "2019-06-04",  // Eid al-Fitr
+        "2019-08-10",  // Arafat (Haj) Day
+        "2019-08-11",  // Eid al-Adha
+        "2019-08-31",  // Hijri New Year
+        "2019-12-02",  // UAE National Day
+
+        "2020-01-01",  // New Year's Day
+        "2020-03-22",  // Isra and Mi'raj
+        "2020-05-24",  // Eid al-Fitr
+        "2020-07-30",  // Arafat (Haj) Day
+        "2020-07-31",  // Eid al-Adha
+        "2020-08-20",  // Hijri New Year
+        "2020-12-02",  // UAE National Day
+
+        "2021-01-01",  // New Year's Day
+        "2021-03-11",  // Isra and Mi'raj
+        "2021-05-13",  // Eid al-Fitr
+        "2021-07-19",  // Arafat (Haj) Day
+        "2021-07-20",  // Eid al-Adha
+        "2021-08-09",  // Hijri New Year
+        "2021-12-02",  // UAE National Day
+
+        "2022-01-01",  // New Year's Day
+        "2022-02-28",  // Isra and Mi'raj
+        "2022-05-03",  // Eid al-Fitr
+        "2022-07-08",  // Arafat (Haj) Day
+        "2022-07-09",  // Eid al-Adha
+        "2022-07-30",  // Hijri New Year
+        "2022-12-02",  // UAE National Day
+
+        "2023-01-01",  // New Year's Day
+        "2023-02-18",  // Isra and Mi'raj
+        "2023-04-22",  // Eid al-Fitr
+        "2023-06-27",  // Arafat (Haj) Day
+        "2023-06-28",  // Eid al-Adha
+        "2023-07-19",  // Hijri New Year
+        "2023-12-02",  // UAE National Day
+
+        "2024-01-01",  // New Year's Day
+        "2024-02-08",  // Isra and Mi'raj
+        "2024-04-11",  // Eid al-Fitr
+        "2024-06-15",  // Arafat (Haj) Day
+        "2024-06-16",  // Eid al-Adha
+        "2024-07-07",  // Hijri New Year
+        "2024-12-02"   // UAE National Day
+    ]
+}
