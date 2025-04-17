@@ -12,25 +12,44 @@
     This module is part of a larger educational and prototyping framework and may lack
     advanced features or optimizations found in production-grade systems.
 
-    Proprietary License - QuantJourney Framework
-    This file is part of the QuantJourney Framework and is licensed for internal, non-commercial use only.
-    Modifications are permitted solely for personal, non-commercial testing. Redistribution and commercial use are prohibited.
-
-    For full terms, see the LICENSE file or contact Jakub Polec at jakub@quantjourney.pro.
+    MIT License - see LICENSE file for details.
 """
 
+import json
+import logging
+from datetime import datetime, time, timedelta
+from typing import Dict, List, Optional, Tuple, Union
+
 import pandas as pd
-from typing import Dict, Tuple, Optional
 from pytz import timezone
-from datetime import time, datetime
 from pytz import timezone as pytz_timezone
 from enum import Enum
 import asyncio
 import json5 as json  # JSON5 is a superset of JSON that allows comments and trailing commas
 
-from quantjourney.other.decorators import error_logger
-from quantjourney.logger import logger
+# Set up logging
+logger = logging.getLogger(__name__)
+logger.setLevel(logging.INFO)
 
+# Create console handler
+ch = logging.StreamHandler()
+ch.setLevel(logging.INFO)
+
+# Create formatter
+formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
+ch.setFormatter(formatter)
+
+# Add handler to logger
+logger.addHandler(ch)
+
+def error_logger(func):
+    def wrapper(*args, **kwargs):
+        try:
+            return func(*args, **kwargs)
+        except Exception as e:
+            logger.error(f"Error in {func.__name__}: {str(e)}")
+            raise
+    return wrapper
 
 # ExchangeInfo class ----------------------------------------------------------
 class ExchangeInfo:
@@ -340,7 +359,7 @@ class UnitTests(Enum):
 
 async def run_unit_test(unit_test: UnitTests):
 
-    nyse_info = ExchangeInfo("./quantjourney/calendars/exchange_calendars/NYSE.json")
+    nyse_info = ExchangeInfo("./exchange_calendars/NYSE.json")
     start_date = pd.Timestamp("2023-01-05")
     end_date = pd.Timestamp("2023-01-31")
 

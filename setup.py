@@ -7,13 +7,14 @@ setup(
     install_requires=[
         "pandas>=1.3.0",
         "pytz>=2021.1",
+        "json5>=0.9.14",
     ],
     author="QuantJourney",
-    author_email="your.email@example.com",
+    author_email="jakub@quantjourney.pro",
     description="Trading calendar and exchange management system for financial markets",
     long_description=open("README.md").read(),
     long_description_content_type="text/markdown",
-    url="https://github.com/yourusername/quantjourney-calendar",
+    url="https://github.com/QuantJourneyOrg/qj_calendar",
     classifiers=[
         "Development Status :: 3 - Alpha",
         "Intended Audience :: Financial and Insurance Industry",
@@ -24,4 +25,7 @@ setup(
         "Programming Language :: Python :: 3.10",
     ],
     python_requires=">=3.8",
+    package_data={
+        "calendar": ["exchange_calendars/*.json"],
+    },
 ) 
